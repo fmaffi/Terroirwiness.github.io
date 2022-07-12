@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carrito de compras de Terroir Wines</title>
+    <link rel="stylesheet" href="css/estilo.css">
+    <link rel="shortcut icon" href="./fotos index/favicon.ico">
+    <link href="https://fonts.googleapis.com/css2?family=Alegreya+SC&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="./fotos index/favicon.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    rel="stylesheet"
+    />
+    <link
+    href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap"
+    rel="stylesheet"
+    />
+    <link
+    href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/4.1.0/mdb.min.css"
+    rel="stylesheet"
+    />
+    <meta name="description" content=" los mejores precios para comprar vinos de alta calidad">
+    <meta name="keywords" content="vinos,uvas,varietal,bodega,enologo,sommelier,malbec,cabernet,chardonay,maridaje">
+</head>
+<body class="contenedorTT">
+    <header class="header">
+      <a href="./IndexTw.html">
+        <img src="./fotos index/logo de mi pagina.PNG" width="250px"  alt="logo de la pagina">
+      </a>
+     </header>
+      <section>
+        <nav class="navbar navbar-expand-lg bg-white text-primary " >
+        <div class="container-fluid mx-auto ">
+          <a class="navbar-brand text-dark" href="./tienda.html">Tienda</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse " id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active text-dark" aria-current="page" href="./carrito.html">Carrito</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active text-dark" aria-current="page" href="./promociones.html">Promos Eco</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active text-dark" aria-current="page" href="./combooff.html">Combos Off%</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-dark" href="./Contacto.html">Contacto</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle text-dark" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Bodegas con las que trabajamos
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="#">Catena Zapata</a></li>
+                  <li><a class="dropdown-item" href="#">Rutini</a></li>
+                  <li><a class="dropdown-item" href="#">El enemigo</a></li>
+                  <li><a class="dropdown-item" href="#">Ricciatelli</a></li>
+                  <li><a class="dropdown-item" href="#">Cobos</a></li>
+                  <li><a class="dropdown-item" href="#">Zuccardi</a></li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </section >
+   
+    <main class="contenedorTT" >
+        <section class="h-100 h-custom" style="background-color:  #212529;">
+            <div class="container py-5 h-100">
+              <div class="row d-flex justify-content-center align-items-center h-100">
+                <div class="col-12">
+                  <div class="card card-registration card-registration-2" style="border-radius: 15px;">
+                    <div class="card-body p-0">
+                      <div class="row g-0">
+                        <div class="col-lg-8">
+                          <div class="p-5">
+                            <div class="d-flex justify-content-between align-items-center mb-5">
+                              <h1 class="fw-bold mb-0 text-black">Carrito de compra</h1>
+                              <h6 class="mb-0 text-muted">3 items</h6>
+                            </div>
+                            <hr class="my-4">
+          
+                            <div class="row mb-4 d-flex justify-content-between align-items-center">
+                              <div class="col-md-2 col-lg-2 col-xl-2">
+                                <img src="./vinos/felipe rutini.jpg"
+                                  class="img-fluid rounded-3" alt="Cotton T-shirt">
+                              </div>
+                              <div class="col-md-3 col-lg-3 col-xl-3">
+                                <h6 class="text-muted">Felipe rutini</h6>
+                                <h6 class="text-black mb-0">Malbec 2016</h6>
+                              </div>
+                              <div class="col-md-3 col-lg-3 col-xl-2 d-flex">
+                                <button class="btn btn-white px-2"
+                                  onclick="this.parentNode.querySelector('input[type=number]').stepDown()" >
+                                  <i class="fas fa-minus "></i>
+                                </button>
+          
+                                <input id="form1" min="0" name="quantity" value="1" type="number"
+                                  class="form-control form-control-sm" />
+          
+                                <button class="btn btn-white px-2"
+                                  onclick="this.parentNode.querySelector('input[type=number]').stepUp()">
+                                  <i class="fas fa-plus"></i>
+                                </button>
+                              </div>
+                              <div class="col-md-3 col-lg-2 col-xl-2 offset-lg-1">
+                                <h6 class="mb-0">$23.000</h6>
+                              </div>
+                              <div class="col-md-1 col-lg-1 col-xl-1 text-end">
+                                <a href="#!" class="text-muted"><i class="fas fa-times"></i></a>
+                              </div>
+                            </div>
+          
+                            <hr class="my-4">
+          
+                            <div class="row mb-4 d-flex justify-content-between align-items-center">
+                              <div class="col-md-2 col-lg-2 col-xl-2">
+                                <img
+                                  src="./vinos/vino-catena-zapata-malbec-argentino.jpg"
+                                  class="img-fluid rounded-3" alt="Cotton T-shirt">
+                              </div>
+                              <div class="col-md-3 col-lg-3 col-xl-3">
+                                <h6 class="text-muted">Malbec argetino Catena Zapata</h6>
+                                <h6 class="text-black mb-0">Malbec 2007</h6>
+                              </div>
+                              <div class="col-md-3 col-lg-3 col-xl-2 d-flex">
+                                <button class="btn btn-white px-2"
+                                  onclick="this.parentNode.querySelector('input[type=number]').stepDown()">
+                                  <em class="fas fa-minus"></em>
+                                </button>
+          
+                                <input id="form1" min="0" name="quantity" value="1" type="number"
+                                  class="form-control form-control-sm" />
+          
+                                <button class="btn btn-white px-2"
+                                  onclick="this.parentNode.querySelector('input[type=number]').stepUp()">
+                                  <em class="fas fa-plus"></em>
+                                </button>
+                              </div>
+                              <div class="col-md-3 col-lg-2 col-xl-2 offset-lg-1">
+                                <h6 class="mb-0">$15.000</h6>
+                              </div>
+                              <div class="col-md-1 col-lg-1 col-xl-1 text-end">
+                                <a href="#!" class="text-muted"><em class="fas fa-times"></em></a>
+                              </div>
+                            </div>
+          
+                            <hr class="my-4">
+          
+                            <div class="row mb-4 d-flex justify-content-between align-items-center">
+                              <div class="col-md-2 col-lg-2 col-xl-2">
+                                <img
+                                  src="./vinos/Bressia_Piel_Negra_Pinot_Noir_yhndc0.jpg"
+                                  class="img-fluid rounded-3" alt="Cotton T-shirt">
+                              </div>
+                              <div class="col-md-3 col-lg-3 col-xl-3">
+                                <h6 class="text-muted">Piel negra Bressia</h6>
+                                <h6 class="text-black mb-0">Pinot Noir 2019</h6>
+                              </div>
+                              <div class="col-md-3 col-lg-3 col-xl-2 d-flex">
+                                <button class="btn btn-white px-2"
+                                  onclick="this.parentNode.querySelector('input[type=number]').stepDown()">
+                                  <em class="fas fa-minus"></em>
+                                </button>
+          
+                                <input id="form1" min="0" name="quantity" value="1" type="number"
+                                  class="form-control form-control-sm" />
+          
+                                <button class="btn btn-white px-2"
+                                  onclick="this.parentNode.querySelector('input[type=number]').stepUp()">
+                                  <em class="fas fa-plus"></em>
+                                </button>
+                              </div>
+                              <div class="col-md-3 col-lg-2 col-xl-2 offset-lg-1">
+                                <h6 class="mb-0">$7.500</h6>
+                              </div>
+                              <div class="col-md-1 col-lg-1 col-xl-1 text-end">
+                                <a href="#!" class="text-muted"><em class="fas fa-times"></em></a>
+                              </div>
+                            </div>
+          
+                            <hr class="my-4">
+          
+                            <div class="pt-5">
+                              <h6 class="mb-0"><a href="./IndexTw.html" class="text-body">
+                                <em class="fas fa-long-arrow-alt-left me-2"></em>Volver al menu preincipal</a></h6>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col-lg-4 bg-grey">
+                          <div class="p-5">
+                            <h3 class="fw-bold mb-5 mt-2 pt-1">Resumen de compra</h3>
+                            <hr class="my-4">
+          
+                            <div class="d-flex justify-content-between mb-4">
+                              <h5 class="text-uppercase">3 productos</h5>
+                              <h5>$45.500</h5>
+                            </div>
+          
+                            <h5 class="text-uppercase mb-3">Tipo de envio</h5>
+          
+                            <div class="mb-4 pb-2">
+                              <select class="select">
+                                <option value="1">Envio standard- $300</option>
+                                <option value="2">Dos</option>
+                                <option value="3">Tres</option>
+                                <option value="4">Cuatro</option>
+                              </select>
+                            </div>
+          
+                            <h5 class="text-uppercase mb-3">Codigo de descuento</h5>
+          
+                            <div class="mb-5">
+                              <div class="form-outline">
+                                <input type="text" id="form3Examplea2" class="form-control form-control-lg" />
+                                <label class="form-label" for="form3Examplea2">Ingresa tu Codigo</label>
+                              </div>
+                            </div>
+          
+                            <hr class="my-4">
+          
+                            <div class="d-flex justify-content-between mb-5">
+                              <h5 class="text-uppercase">Total</h5>
+                              <h5>$45.500</h5>
+                            </div>
+                          <a href="./IndexTw.html">
+                            <button type="button" class="btn btn-dark btn-block btn-lg"
+                              data-mdb-ripple-color="dark">Aceptar</button>
+                            </a>
+          
+                          </div>
+                          <div class="card-body">
+                            <p><strong>Medios de pago</strong></p>
+                            <img class="me-2" width="45px"
+                              src="https://mdbcdn.b-cdn.net/wp-content/plugins/woocommerce-gateway-stripe/assets/images/visa.svg"
+                              alt="Visa" />
+                            <img class="me-2" width="45px"
+                              src="https://mdbcdn.b-cdn.net/wp-content/plugins/woocommerce-gateway-stripe/assets/images/amex.svg"
+                              alt="American Express" />
+                            <img class="me-2" width="45px"
+                              src="https://mdbcdn.b-cdn.net/wp-content/plugins/woocommerce-gateway-stripe/assets/images/mastercard.svg"
+                              alt="Mastercard" />
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            
+          </section>
+          
+
+
+    </main>
+      <footer class="footer"><hr>
+        <h6>
+            Tienda fisica: Juan Bautista de LaSalle 437, B1642 San Isidro, Provincia de Buenos Aires
+         </h6>
+          <h6 >
+             Numero de telefono: 0115 4732-0894
+          </h6>
+         <h6 >
+             Instagram: TerroirWines
+          </h6> 
+          <div>
+            <a href="IndexTw.html" class="text-white">Menu Principal</a>
+           </div>
+
+    </footer>
+    
+      
+     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>  
+
+
+    
+    
+</body>
+</html>

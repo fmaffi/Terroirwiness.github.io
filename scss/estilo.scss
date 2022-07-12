@@ -1,0 +1,159 @@
+@import"contacto";
+$colorback: #212529;
+
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+  }
+  body{
+    background-color: $colorback;
+   
+   
+  }
+  .header{
+    background-color: $colorback;
+    text-align: center;
+  }
+  .contenedorTT{
+    background-color: $colorback;
+    margin: auto;
+    padding: AUTO;
+    font-size: 3 rem;
+    text-align: center;
+    font-family: 'IM Fell English SC', serif;
+    line-height: 25px;
+    color: black;
+  
+  
+  }
+  li{
+    display: inline;
+    list-style: none;
+    margin: 1.5rem;
+    font-family:  'Alegreya SC', serif; ;
+   
+  }
+  li a{
+    text-decoration: none;
+    display:inline-block ;
+    color: rgb(245, 240, 240);
+    transition: all 1s ease;
+  
+  }
+  li a:hover{
+    color: aliceblue;
+    transform: scale(1.5,1.5) ;
+    
+    
+}
+.trans{
+    transition: all 1s ease;
+}
+
+.trans :hover{
+    transform: scale(1.1,1.1) ;
+
+}
+.footer{
+   @extend .contenedorTT;
+    font-size: 1.2rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+}
+.contenedorYY{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: $colorback;
+
+}
+.holis{
+    background-color: $colorback;
+    .titulocontacto{
+        text-align: center;
+        font-family:  'Alegreya SC', serif;
+        font-size: 2rem;
+        margin: 40px;
+        font-weight: normal;
+      }.textocontacto1{
+        margin: 30px;
+        text-align: center;
+        font-family: 'IM Fell English SC', serif;
+        line-height: 25px;
+      }
+      .formcontacto{
+        text-align: center;
+        
+        
+      }legend{
+        font-size: 2rem;
+        
+      }.contenedorcontacto{
+        background-color: $colorback;
+        display: inline-flex;
+    
+    
+    }
+
+}
+.metrix{
+
+    background-color: rgb(47, 38, 38);
+    justify-content: space-around;
+  
+  
+  }
+  @media (min-width: 1025px) {
+    .h-custom {
+    height: 100vh !important;
+    }
+    }
+  
+    .card-registration .select-input.form-control[readonly]:not([disabled]) {
+    font-size: 1rem;
+    line-height: 2.15;
+    padding-left: .75em;
+    padding-right: .75em;
+    }
+  
+    .card-registration .select-arrow {
+    top: 13px;
+    }
+  
+    .bg-grey {
+    background-color: #eae8e8;
+    }
+  
+    @media (min-width: 992px) {
+    .card-registration-2 .bg-grey {
+    border-top-right-radius: 16px;
+    border-bottom-right-radius: 16px;
+    }
+    }
+  
+    @media (max-width: 991px) {
+    .card-registration-2 .bg-grey {
+    border-bottom-left-radius: 16px;
+    border-bottom-right-radius: 16px;
+    }
+    }
+    li a:hover{
+      color: aliceblue;
+      transform: scale(1.5,1.5) ;
+      
+      
+  }
+  .tiendadevinos{
+    display: inline-flex;
+    margin: 20px;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: auto;
+    align-items: center;
+    gap: 25px;
+
+}
+
+

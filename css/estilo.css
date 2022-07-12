@@ -1,0 +1,272 @@
+
+.holis {
+  background-color: #212529; }
+  .holis .titulocontacto {
+    background-color: #212529;
+    
+    text-align: center;
+    font-family: 'Alegreya SC', serif;
+    font-size: 2rem;
+    margin: 40px;
+    font-weight: normal;
+    color: white; }
+  .holis .textocontacto1 {
+    margin: 30px;
+    text-align: center;
+    font-family: 'IM Fell English SC', serif;
+    line-height: 25px;
+    color: white; }
+  .holis .formcontacto {
+    text-align: center;
+    color: white; }
+  .holis legend {
+    font-size: 2rem; 
+    color: white;}
+  .holis .contenedorcontacto {
+    background-color: #212529;
+    display: inline-flex; }
+
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box; }
+
+
+
+.header {
+  background-color: #212529;
+  text-align: center; }
+
+.contenedorTT, .footer {
+  background-color: #212529;
+
+  
+  margin: auto;
+  padding: AUTO;
+  font-size: 3 rem;
+  text-align: center;
+  font-family: 'IM Fell English SC', serif;
+  line-height: 25px;
+  color: black;  
+  width: auto;}
+
+li {
+  display: inline;
+  list-style: none;
+  margin: 1.5rem;
+  font-family: 'Alegreya SC', serif; }
+
+li a {
+  text-decoration: none;
+  display: inline-block;
+  color: #f5f0f0;
+  transition: all 1s ease; }
+
+li a:hover {
+  color: aliceblue;
+  transform: scale(1.5, 1.5); }
+
+.trans {
+  transition: all 1s ease; }
+
+.trans :hover {
+  transform: scale(1.1, 1.1); }
+
+.footer {
+
+  font-size: 1.2rem;
+  color: white;
+}
+  
+
+.contenedorYY {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+ }
+ 
+
+
+  .holis .titulocontacto {
+    text-align: center;
+    font-family: 'Alegreya SC', serif;
+    font-size: 2rem;
+    margin: 40px;
+    font-weight: normal; }
+  .holis .textocontacto1 {
+    margin: 30px;
+    text-align: center;
+    font-family: 'IM Fell English SC', serif;
+    line-height: 25px; }
+  .holis .formcontacto {
+    text-align: center; }
+  .holis legend {
+    font-size: 2rem; }
+  .holis .contenedorcontacto {
+    display: inline-flex;
+  background-color: #232A32; }
+
+.metrix {
+  background-color: #212529;
+  justify-content: space-around; }
+
+@media (min-width: 1025px) {
+  .h-custom {
+    height: 100vh !important; } }
+
+.card-registration .select-input.form-control[readonly]:not([disabled]) {
+  font-size: 1rem;
+  line-height: 2.15;
+  padding-left: .75em;
+  padding-right: .75em; }
+
+.card-registration .select-arrow {
+  top: 13px; }
+
+.bg-grey {
+  background-color: #eae8e8; }
+
+@media (min-width: 992px) {
+  .card-registration-2 .bg-grey {
+    border-top-right-radius: 16px;
+    border-bottom-right-radius: 16px; } }
+
+@media (max-width: 991px) {
+  .card-registration-2 .bg-grey {
+    border-bottom-left-radius: 16px;
+    border-bottom-right-radius: 16px; } }
+
+li a:hover {
+  color: aliceblue;
+  transform: scale(1.5, 1.5); }
+
+.tiendadevinos {
+  display: inline-flex;
+  margin: 20px;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  width: auto;
+  align-items: center;
+  gap: 25px; }
+  
+  .contenedorcard{
+    width: auto;
+    padding: 50px;
+    gap: 15px;
+    margin: 30px;
+    
+    
+  }
+  
+  
+  .tituloindex{
+    font-family: 'IM Fell English SC', serif;
+    font-weight: lighter;
+    font-size: 3rem;
+    color: white;
+    
+  }
+  .videopromo{
+    width: 40%;
+    display: inline-flex;
+    align-items: center;
+  }
+  .suscripcion{
+    font-size: 2rem;
+
+  }
+  
+  
+  
+   .combooff{
+    display: inline-flex;
+    width: 30%;
+    margin: 50px;
+   }
+   .comboeco{
+    display: inline-flex;
+    width: 30%;
+    margin: 50px;
+   }
+   .ui{
+    font-family: 'IM Fell English SC', serif;
+    font-weight: lighter;
+    font-size: 3rem;
+    color: white;
+   }
+  
+  .tiendacatena{
+  font-family:'IM Fell English SC', serif ;
+  display: flex;
+  gap: 20px;
+  padding: 10px;
+  margin: 15px;
+  
+  
+  
+}
+
+@media screen and (max-width:700px) {
+  .tiendacatena{
+    display: inline-block;
+    
+    
+    
+  }
+  .combooff{
+    width: auto;
+  }
+  .comboeco{
+    width: auto;
+  }
+  
+}
+.titulocatena{
+  font-family: 'IM Fell English SC', serif;
+  color: #eae8e8;
+  
+}
+.titulozucardi{
+  font-family: 'IM Fell English SC', serif;
+  color: #eae8e8;
+
+}
+.titulorutini{
+  font-family: 'IM Fell English SC', serif;
+  color: #eae8e8;
+}
+.tituloricciatelli{
+  font-family: 'IM Fell English SC', serif;
+  color: #eae8e8;
+
+}
+.titulocobos{
+  font-family: 'IM Fell English SC', serif;
+  color: #eae8e8;
+
+}
+.main2{
+  background-color: #212529;
+}
+
+.cardcontac{
+  margin: 20px;
+}
+.promociones{
+  margin: 80px;
+  padding: 10px;
+  width: auto;
+  font-family:  'IM Fell English SC', serif;
+  
+  
+}
+.fondopromo{
+  background-color: #212529;
+}
+body{
+background-color: #232A32;
+}
+.promosi{
+  width: auto;
+}
